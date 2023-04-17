@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		182AF19729ED2221006643ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF19629ED2221006643ED /* AppDelegate.swift */; };
 		182AF19929ED2221006643ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF19829ED2221006643ED /* SceneDelegate.swift */; };
-		182AF19B29ED2221006643ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF19A29ED2221006643ED /* ViewController.swift */; };
+		182AF19B29ED2221006643ED /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF19A29ED2221006643ED /* StartViewController.swift */; };
 		182AF19E29ED2221006643ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182AF19C29ED2221006643ED /* Main.storyboard */; };
 		182AF1A129ED2221006643ED /* PlankRec.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182AF19F29ED2221006643ED /* PlankRec.xcdatamodeld */; };
 		182AF1A329ED2221006643ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182AF1A229ED2221006643ED /* Assets.xcassets */; };
@@ -17,6 +17,8 @@
 		182AF1B129ED2222006643ED /* PlankRecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1B029ED2222006643ED /* PlankRecTests.swift */; };
 		182AF1BB29ED2222006643ED /* PlankRecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1BA29ED2222006643ED /* PlankRecUITests.swift */; };
 		182AF1BD29ED2222006643ED /* PlankRecUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1BC29ED2222006643ED /* PlankRecUITestsLaunchTests.swift */; };
+		182AF1CA29ED244F006643ED /* PlankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1C929ED244F006643ED /* PlankViewController.swift */; };
+		182AF1CC29ED246B006643ED /* RecTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1CB29ED246B006643ED /* RecTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 		182AF19329ED2220006643ED /* PlankRec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlankRec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182AF19629ED2221006643ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		182AF19829ED2221006643ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		182AF19A29ED2221006643ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182AF19A29ED2221006643ED /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		182AF19D29ED2221006643ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182AF1A029ED2221006643ED /* PlankRec.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlankRec.xcdatamodel; sourceTree = "<group>"; };
 		182AF1A229ED2221006643ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		182AF1B629ED2222006643ED /* PlankRecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlankRecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182AF1BA29ED2222006643ED /* PlankRecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlankRecUITests.swift; sourceTree = "<group>"; };
 		182AF1BC29ED2222006643ED /* PlankRecUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlankRecUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		182AF1C929ED244F006643ED /* PlankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlankViewController.swift; sourceTree = "<group>"; };
+		182AF1CB29ED246B006643ED /* RecTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 			children = (
 				182AF19629ED2221006643ED /* AppDelegate.swift */,
 				182AF19829ED2221006643ED /* SceneDelegate.swift */,
-				182AF19A29ED2221006643ED /* ViewController.swift */,
+				182AF19A29ED2221006643ED /* StartViewController.swift */,
+				182AF1CB29ED246B006643ED /* RecTableViewController.swift */,
+				182AF1C929ED244F006643ED /* PlankViewController.swift */,
 				182AF19C29ED2221006643ED /* Main.storyboard */,
 				182AF1A229ED2221006643ED /* Assets.xcassets */,
 				182AF1A429ED2221006643ED /* LaunchScreen.storyboard */,
@@ -261,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182AF19B29ED2221006643ED /* ViewController.swift in Sources */,
+				182AF1CA29ED244F006643ED /* PlankViewController.swift in Sources */,
+				182AF19B29ED2221006643ED /* StartViewController.swift in Sources */,
+				182AF1CC29ED246B006643ED /* RecTableViewController.swift in Sources */,
 				182AF1A129ED2221006643ED /* PlankRec.xcdatamodeld in Sources */,
 				182AF19729ED2221006643ED /* AppDelegate.swift in Sources */,
 				182AF19929ED2221006643ED /* SceneDelegate.swift in Sources */,
@@ -448,6 +456,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +484,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
