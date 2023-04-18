@@ -11,14 +11,18 @@
 		182AF19929ED2221006643ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF19829ED2221006643ED /* SceneDelegate.swift */; };
 		182AF19B29ED2221006643ED /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF19A29ED2221006643ED /* StartViewController.swift */; };
 		182AF19E29ED2221006643ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182AF19C29ED2221006643ED /* Main.storyboard */; };
-		182AF1A129ED2221006643ED /* PlankRec.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182AF19F29ED2221006643ED /* PlankRec.xcdatamodeld */; };
 		182AF1A329ED2221006643ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182AF1A229ED2221006643ED /* Assets.xcassets */; };
-		182AF1A629ED2221006643ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182AF1A429ED2221006643ED /* LaunchScreen.storyboard */; };
 		182AF1B129ED2222006643ED /* PlankRecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1B029ED2222006643ED /* PlankRecTests.swift */; };
 		182AF1BB29ED2222006643ED /* PlankRecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1BA29ED2222006643ED /* PlankRecUITests.swift */; };
 		182AF1BD29ED2222006643ED /* PlankRecUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1BC29ED2222006643ED /* PlankRecUITestsLaunchTests.swift */; };
 		182AF1CA29ED244F006643ED /* PlankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1C929ED244F006643ED /* PlankViewController.swift */; };
 		182AF1CC29ED246B006643ED /* RecTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1CB29ED246B006643ED /* RecTableViewController.swift */; };
+		182AF1CF29ED4617006643ED /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1CD29ED4617006643ED /* DataModel.xcdatamodeld */; };
+		185907C329EE8883001C0848 /* AQI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185907C229EE8883001C0848 /* AQI.swift */; };
+		185907C529EECA74001C0848 /* PlankTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185907C429EECA74001C0848 /* PlankTime.swift */; };
+		4FFCEE93C2CA8E63ACC53C49 /* Pods_PlankRec_PlankRecUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26AF85338DF417A5C270E24 /* Pods_PlankRec_PlankRecUITests.framework */; };
+		AE3D89BC35DA0403C015194C /* Pods_PlankRec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1ECFA4E6015AD651D285B7D /* Pods_PlankRec.framework */; };
+		D7F1655E26D7C552A2C5593D /* Pods_PlankRecTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F10689712E4FBBB8F980AE /* Pods_PlankRecTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +48,7 @@
 		182AF19829ED2221006643ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		182AF19A29ED2221006643ED /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		182AF19D29ED2221006643ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		182AF1A029ED2221006643ED /* PlankRec.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlankRec.xcdatamodel; sourceTree = "<group>"; };
 		182AF1A229ED2221006643ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		182AF1A529ED2221006643ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182AF1A729ED2221006643ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182AF1AC29ED2222006643ED /* PlankRecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlankRecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182AF1B029ED2222006643ED /* PlankRecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlankRecTests.swift; sourceTree = "<group>"; };
@@ -55,6 +57,18 @@
 		182AF1BC29ED2222006643ED /* PlankRecUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlankRecUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		182AF1C929ED244F006643ED /* PlankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlankViewController.swift; sourceTree = "<group>"; };
 		182AF1CB29ED246B006643ED /* RecTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecTableViewController.swift; sourceTree = "<group>"; };
+		182AF1CE29ED4617006643ED /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		185907C229EE8883001C0848 /* AQI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQI.swift; sourceTree = "<group>"; };
+		185907C429EECA74001C0848 /* PlankTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlankTime.swift; sourceTree = "<group>"; };
+		2D3D98804EB9A6A49DE17CE6 /* Pods-PlankRecTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRecTests.debug.xcconfig"; path = "Target Support Files/Pods-PlankRecTests/Pods-PlankRecTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58D3BA4F5CEF8C09B7FFBCB4 /* Pods-PlankRec-PlankRecUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRec-PlankRecUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlankRec-PlankRecUITests/Pods-PlankRec-PlankRecUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64F10689712E4FBBB8F980AE /* Pods_PlankRecTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlankRecTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ECFA4E6015AD651D285B7D /* Pods_PlankRec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlankRec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26AF85338DF417A5C270E24 /* Pods_PlankRec_PlankRecUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlankRec_PlankRecUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED8B68FD54A187AB86C69E9 /* Pods-PlankRec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRec.release.xcconfig"; path = "Target Support Files/Pods-PlankRec/Pods-PlankRec.release.xcconfig"; sourceTree = "<group>"; };
+		BD26EFC2CDC0B4D3C3A5224E /* Pods-PlankRecTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRecTests.release.xcconfig"; path = "Target Support Files/Pods-PlankRecTests/Pods-PlankRecTests.release.xcconfig"; sourceTree = "<group>"; };
+		C209E17D3F2F36728DF01925 /* Pods-PlankRec-PlankRecUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRec-PlankRecUITests.release.xcconfig"; path = "Target Support Files/Pods-PlankRec-PlankRecUITests/Pods-PlankRec-PlankRecUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD496290A09CB86F22B14024 /* Pods-PlankRec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRec.debug.xcconfig"; path = "Target Support Files/Pods-PlankRec/Pods-PlankRec.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3D89BC35DA0403C015194C /* Pods_PlankRec.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F1655E26D7C552A2C5593D /* Pods_PlankRecTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFCEE93C2CA8E63ACC53C49 /* Pods_PlankRec_PlankRecUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +106,8 @@
 				182AF1AF29ED2222006643ED /* PlankRecTests */,
 				182AF1B929ED2222006643ED /* PlankRecUITests */,
 				182AF19429ED2221006643ED /* Products */,
+				57BE7EEA151E072FCBC261A2 /* Pods */,
+				45B9121E4885FBB7835D12C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,11 +129,12 @@
 				182AF19A29ED2221006643ED /* StartViewController.swift */,
 				182AF1CB29ED246B006643ED /* RecTableViewController.swift */,
 				182AF1C929ED244F006643ED /* PlankViewController.swift */,
+				185907C429EECA74001C0848 /* PlankTime.swift */,
+				185907C229EE8883001C0848 /* AQI.swift */,
 				182AF19C29ED2221006643ED /* Main.storyboard */,
 				182AF1A229ED2221006643ED /* Assets.xcassets */,
-				182AF1A429ED2221006643ED /* LaunchScreen.storyboard */,
 				182AF1A729ED2221006643ED /* Info.plist */,
-				182AF19F29ED2221006643ED /* PlankRec.xcdatamodeld */,
+				182AF1CD29ED4617006643ED /* DataModel.xcdatamodeld */,
 			);
 			path = PlankRec;
 			sourceTree = "<group>";
@@ -136,6 +156,29 @@
 			path = PlankRecUITests;
 			sourceTree = "<group>";
 		};
+		45B9121E4885FBB7835D12C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1ECFA4E6015AD651D285B7D /* Pods_PlankRec.framework */,
+				A26AF85338DF417A5C270E24 /* Pods_PlankRec_PlankRecUITests.framework */,
+				64F10689712E4FBBB8F980AE /* Pods_PlankRecTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57BE7EEA151E072FCBC261A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD496290A09CB86F22B14024 /* Pods-PlankRec.debug.xcconfig */,
+				AED8B68FD54A187AB86C69E9 /* Pods-PlankRec.release.xcconfig */,
+				58D3BA4F5CEF8C09B7FFBCB4 /* Pods-PlankRec-PlankRecUITests.debug.xcconfig */,
+				C209E17D3F2F36728DF01925 /* Pods-PlankRec-PlankRecUITests.release.xcconfig */,
+				2D3D98804EB9A6A49DE17CE6 /* Pods-PlankRecTests.debug.xcconfig */,
+				BD26EFC2CDC0B4D3C3A5224E /* Pods-PlankRecTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182AF1C029ED2222006643ED /* Build configuration list for PBXNativeTarget "PlankRec" */;
 			buildPhases = (
+				154B504AFC44B5C35CCFD535 /* [CP] Check Pods Manifest.lock */,
 				182AF18F29ED2220006643ED /* Sources */,
 				182AF19029ED2220006643ED /* Frameworks */,
 				182AF19129ED2220006643ED /* Resources */,
+				A49B8FD5CF63D39E9345D4DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182AF1C329ED2222006643ED /* Build configuration list for PBXNativeTarget "PlankRecTests" */;
 			buildPhases = (
+				D93CCA60AFCAFF663D42A056 /* [CP] Check Pods Manifest.lock */,
 				182AF1A829ED2222006643ED /* Sources */,
 				182AF1A929ED2222006643ED /* Frameworks */,
 				182AF1AA29ED2222006643ED /* Resources */,
@@ -178,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182AF1C629ED2222006643ED /* Build configuration list for PBXNativeTarget "PlankRecUITests" */;
 			buildPhases = (
+				137E170AB96C546938DE3880 /* [CP] Check Pods Manifest.lock */,
 				182AF1B229ED2222006643ED /* Sources */,
 				182AF1B329ED2222006643ED /* Frameworks */,
 				182AF1B429ED2222006643ED /* Resources */,
+				0D54ECFE3867BDA04852B3A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,7 +288,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182AF1A629ED2221006643ED /* LaunchScreen.storyboard in Resources */,
 				182AF1A329ED2221006643ED /* Assets.xcassets in Resources */,
 				182AF19E29ED2221006643ED /* Main.storyboard in Resources */,
 			);
@@ -262,6 +309,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D54ECFE3867BDA04852B3A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlankRec-PlankRecUITests/Pods-PlankRec-PlankRecUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlankRec-PlankRecUITests/Pods-PlankRec-PlankRecUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlankRec-PlankRecUITests/Pods-PlankRec-PlankRecUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		137E170AB96C546938DE3880 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlankRec-PlankRecUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		154B504AFC44B5C35CCFD535 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlankRec-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A49B8FD5CF63D39E9345D4DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlankRec/Pods-PlankRec-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlankRec/Pods-PlankRec-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlankRec/Pods-PlankRec-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93CCA60AFCAFF663D42A056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlankRecTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		182AF18F29ED2220006643ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,9 +420,11 @@
 				182AF1CA29ED244F006643ED /* PlankViewController.swift in Sources */,
 				182AF19B29ED2221006643ED /* StartViewController.swift in Sources */,
 				182AF1CC29ED246B006643ED /* RecTableViewController.swift in Sources */,
-				182AF1A129ED2221006643ED /* PlankRec.xcdatamodeld in Sources */,
+				182AF1CF29ED4617006643ED /* DataModel.xcdatamodeld in Sources */,
 				182AF19729ED2221006643ED /* AppDelegate.swift in Sources */,
 				182AF19929ED2221006643ED /* SceneDelegate.swift in Sources */,
+				185907C329EE8883001C0848 /* AQI.swift in Sources */,
+				185907C529EECA74001C0848 /* PlankTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,14 +467,6 @@
 				182AF19D29ED2221006643ED /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		182AF1A429ED2221006643ED /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				182AF1A529ED2221006643ED /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -444,6 +588,7 @@
 		};
 		182AF1C129ED2222006643ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD496290A09CB86F22B14024 /* Pods-PlankRec.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,7 +601,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,6 +617,7 @@
 		};
 		182AF1C229ED2222006643ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED8B68FD54A187AB86C69E9 /* Pods-PlankRec.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -484,7 +630,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,6 +646,7 @@
 		};
 		182AF1C429ED2222006643ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3D98804EB9A6A49DE17CE6 /* Pods-PlankRecTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +666,7 @@
 		};
 		182AF1C529ED2222006643ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD26EFC2CDC0B4D3C3A5224E /* Pods-PlankRecTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +686,7 @@
 		};
 		182AF1C729ED2222006643ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D3BA4F5CEF8C09B7FFBCB4 /* Pods-PlankRec-PlankRecUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +704,7 @@
 		};
 		182AF1C829ED2222006643ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C209E17D3F2F36728DF01925 /* Pods-PlankRec-PlankRecUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -612,14 +762,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		182AF19F29ED2221006643ED /* PlankRec.xcdatamodeld */ = {
+		182AF1CD29ED4617006643ED /* DataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				182AF1A029ED2221006643ED /* PlankRec.xcdatamodel */,
+				182AF1CE29ED4617006643ED /* DataModel.xcdatamodel */,
 			);
-			currentVersion = 182AF1A029ED2221006643ED /* PlankRec.xcdatamodel */;
-			path = PlankRec.xcdatamodeld;
+			currentVersion = 182AF1CE29ED4617006643ED /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
+			usesTabs = 0;
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
