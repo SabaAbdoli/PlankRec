@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  PlankRec
 //
-//  Created by Apple on 4/16/23.
+//  Created by Sab on 4/16/23.
 //
 
 import UIKit
@@ -18,6 +18,7 @@ class StartViewController: UIViewController {
     override func viewDidLoad() {
      super.viewDidLoad()
         
+        
         aqi.delegate = self
         locationManager.delegate = self
         
@@ -26,9 +27,9 @@ class StartViewController: UIViewController {
   }
     func showAQI() {
        
-        var aqiColor = aqi.aqi<101 ? UIColor(ciColor: .green):UIColor(ciColor: .red)
-        aqiLabel.backgroundColor = aqiColor
-        aqiLabel.text = String(aqi.aqi)
+        var aqiColor = aqi.aqi<101 ? UIColor.green.cgColor:UIColor.red.cgColor
+        aqiLabel.layer.backgroundColor =  aqiColor
+         aqiLabel.text = "AQI : "+String(aqi.aqi)
     }
     
     

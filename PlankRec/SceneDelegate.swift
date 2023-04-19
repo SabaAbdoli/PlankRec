@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  PlankRec
 //
-//  Created by Apple on 4/16/23.
+//  Created by Sab on 4/16/23.
 //
 
 import UIKit

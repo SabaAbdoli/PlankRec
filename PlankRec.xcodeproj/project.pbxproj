@@ -20,9 +20,7 @@
 		182AF1CF29ED4617006643ED /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182AF1CD29ED4617006643ED /* DataModel.xcdatamodeld */; };
 		185907C329EE8883001C0848 /* AQI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185907C229EE8883001C0848 /* AQI.swift */; };
 		185907C529EECA74001C0848 /* PlankTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185907C429EECA74001C0848 /* PlankTime.swift */; };
-		4FFCEE93C2CA8E63ACC53C49 /* Pods_PlankRec_PlankRecUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26AF85338DF417A5C270E24 /* Pods_PlankRec_PlankRecUITests.framework */; };
 		AE3D89BC35DA0403C015194C /* Pods_PlankRec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1ECFA4E6015AD651D285B7D /* Pods_PlankRec.framework */; };
-		D7F1655E26D7C552A2C5593D /* Pods_PlankRecTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F10689712E4FBBB8F980AE /* Pods_PlankRecTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,14 +58,8 @@
 		182AF1CE29ED4617006643ED /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		185907C229EE8883001C0848 /* AQI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQI.swift; sourceTree = "<group>"; };
 		185907C429EECA74001C0848 /* PlankTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlankTime.swift; sourceTree = "<group>"; };
-		2D3D98804EB9A6A49DE17CE6 /* Pods-PlankRecTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRecTests.debug.xcconfig"; path = "Target Support Files/Pods-PlankRecTests/Pods-PlankRecTests.debug.xcconfig"; sourceTree = "<group>"; };
-		58D3BA4F5CEF8C09B7FFBCB4 /* Pods-PlankRec-PlankRecUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRec-PlankRecUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlankRec-PlankRecUITests/Pods-PlankRec-PlankRecUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		64F10689712E4FBBB8F980AE /* Pods_PlankRecTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlankRecTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ECFA4E6015AD651D285B7D /* Pods_PlankRec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlankRec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A26AF85338DF417A5C270E24 /* Pods_PlankRec_PlankRecUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlankRec_PlankRecUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED8B68FD54A187AB86C69E9 /* Pods-PlankRec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRec.release.xcconfig"; path = "Target Support Files/Pods-PlankRec/Pods-PlankRec.release.xcconfig"; sourceTree = "<group>"; };
-		BD26EFC2CDC0B4D3C3A5224E /* Pods-PlankRecTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRecTests.release.xcconfig"; path = "Target Support Files/Pods-PlankRecTests/Pods-PlankRecTests.release.xcconfig"; sourceTree = "<group>"; };
-		C209E17D3F2F36728DF01925 /* Pods-PlankRec-PlankRecUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRec-PlankRecUITests.release.xcconfig"; path = "Target Support Files/Pods-PlankRec-PlankRecUITests/Pods-PlankRec-PlankRecUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FD496290A09CB86F22B14024 /* Pods-PlankRec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlankRec.debug.xcconfig"; path = "Target Support Files/Pods-PlankRec/Pods-PlankRec.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F1655E26D7C552A2C5593D /* Pods_PlankRecTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FFCEE93C2CA8E63ACC53C49 /* Pods_PlankRec_PlankRecUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,8 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				A1ECFA4E6015AD651D285B7D /* Pods_PlankRec.framework */,
-				A26AF85338DF417A5C270E24 /* Pods_PlankRec_PlankRecUITests.framework */,
-				64F10689712E4FBBB8F980AE /* Pods_PlankRecTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,10 +159,6 @@
 			children = (
 				FD496290A09CB86F22B14024 /* Pods-PlankRec.debug.xcconfig */,
 				AED8B68FD54A187AB86C69E9 /* Pods-PlankRec.release.xcconfig */,
-				58D3BA4F5CEF8C09B7FFBCB4 /* Pods-PlankRec-PlankRecUITests.debug.xcconfig */,
-				C209E17D3F2F36728DF01925 /* Pods-PlankRec-PlankRecUITests.release.xcconfig */,
-				2D3D98804EB9A6A49DE17CE6 /* Pods-PlankRecTests.debug.xcconfig */,
-				BD26EFC2CDC0B4D3C3A5224E /* Pods-PlankRecTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -205,7 +189,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182AF1C329ED2222006643ED /* Build configuration list for PBXNativeTarget "PlankRecTests" */;
 			buildPhases = (
-				D93CCA60AFCAFF663D42A056 /* [CP] Check Pods Manifest.lock */,
 				182AF1A829ED2222006643ED /* Sources */,
 				182AF1A929ED2222006643ED /* Frameworks */,
 				182AF1AA29ED2222006643ED /* Resources */,
@@ -224,11 +207,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182AF1C629ED2222006643ED /* Build configuration list for PBXNativeTarget "PlankRecUITests" */;
 			buildPhases = (
-				137E170AB96C546938DE3880 /* [CP] Check Pods Manifest.lock */,
 				182AF1B229ED2222006643ED /* Sources */,
 				182AF1B329ED2222006643ED /* Frameworks */,
 				182AF1B429ED2222006643ED /* Resources */,
-				0D54ECFE3867BDA04852B3A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -310,45 +291,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D54ECFE3867BDA04852B3A6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PlankRec-PlankRecUITests/Pods-PlankRec-PlankRecUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PlankRec-PlankRecUITests/Pods-PlankRec-PlankRecUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlankRec-PlankRecUITests/Pods-PlankRec-PlankRecUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		137E170AB96C546938DE3880 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PlankRec-PlankRecUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		154B504AFC44B5C35CCFD535 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,28 +328,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlankRec/Pods-PlankRec-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D93CCA60AFCAFF663D42A056 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PlankRecTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -646,7 +566,6 @@
 		};
 		182AF1C429ED2222006643ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D3D98804EB9A6A49DE17CE6 /* Pods-PlankRecTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -666,7 +585,6 @@
 		};
 		182AF1C529ED2222006643ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD26EFC2CDC0B4D3C3A5224E /* Pods-PlankRecTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -686,7 +604,6 @@
 		};
 		182AF1C729ED2222006643ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58D3BA4F5CEF8C09B7FFBCB4 /* Pods-PlankRec-PlankRecUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -704,7 +621,6 @@
 		};
 		182AF1C829ED2222006643ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C209E17D3F2F36728DF01925 /* Pods-PlankRec-PlankRecUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

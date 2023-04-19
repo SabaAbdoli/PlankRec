@@ -2,7 +2,7 @@
 //  PlankViewController.swift
 //  PlankRec
 //
-//  Created by Apple on 4/16/23.
+//  Created by Sab on 4/16/23.
 //
 
 import UIKit
@@ -55,12 +55,10 @@ class PlankViewController: UIViewController, CLLocationManagerDelegate {
         alert.addAction(action)
         alert.addAction(cancelAction)
         present(alert, animated: true)
-        
-        
-        
     }
     
     func animateMovement(){
+       
         plankImageView.layer.borderWidth = 2
         plankImageView.layer.cornerRadius = plankImageView.frame.size.width/2
         let animation = CABasicAnimation(keyPath: "opacity")
@@ -71,8 +69,6 @@ class PlankViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
     
     
